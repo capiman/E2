@@ -279,7 +279,8 @@ int main(void)
     importUnsatFile("e2_unsat_unred_202108220834.cnf");
     importUnsatFile("e2_unsat_unred_202108221248.cnf");
     importUnsatFile("e2_unsat_unred_202108221942.cnf");
-    importUnsatFile("e2_unsat_from_earlier_directory_202107280724.cnf");
+    // Broken file!!! Thanks to Akos!!! Later files can be influenced!!!
+    // importUnsatFile("e2_unsat_from_earlier_directory_202107280724.cnf");
     importUnsatFile("e2_unsat_unred_202108230600.cnf");
     importUnsatFile("e2_unsat_unred_202108231055.cnf");
     importUnsatFile("e2_unsat_unred_202108231928.cnf");
